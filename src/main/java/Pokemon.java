@@ -212,7 +212,7 @@ public class Pokemon {
         } else {
             System.out.println("The attack missed!");
         }
-        System.out.println(" ");
+
         return (opponent.hitPoints < 1);
     }
 
