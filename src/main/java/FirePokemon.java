@@ -63,10 +63,9 @@ public class FirePokemon extends Pokemon {
               if (opponent.pokeType == this.pokeType || this.specialtyProbability <= randVal) {
                   return false;
               }
-              System.out.println(this.getName() + "executes a specialty atack... "
+              System.out.println(this.getName() + " executes a specialty atack... "
                       + this.specialtyAttack);
               opponent.setHitPoints(0);
-              System.out.print(this.getName() + " is the winner!!");
               return true;
         }
         return true;
